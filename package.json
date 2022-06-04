@@ -5,14 +5,22 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
-  "keywords": ["kaween", "wedding invitation", "undangan nikah digital", "undangan nikah"],
+  "keywords": [
+    "kaween",
+    "wedding invitation",
+    "undangan nikah digital",
+    "undangan nikah"
+  ],
   "author": "dyvue",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
     "express": "^4.18.1",
-    "sqlite3": "^5.0.8",
+    "mongoose": "^6.3.5",
+    "nodemon": "^2.0.16",
     "uuidv4": "^6.2.13"
   }
 }
