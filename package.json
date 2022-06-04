@@ -1,0 +1,18 @@
+{
+  "name": "kaween",
+  "version": "1.0.0",
+  "description": "Wedding invitation",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": ["kaween", "wedding invitation", "undangan nikah digital", "undangan nikah"],
+  "author": "dyvue",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "sqlite3": "^5.0.8",
+    "uuidv4": "^6.2.13"
+  }
+}
